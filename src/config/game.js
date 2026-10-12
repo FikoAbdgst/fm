@@ -1,0 +1,55 @@
+export const GAME = {
+  schemaVersion: 3,
+  storageKey: 'fm-challenge:session:v3',
+  broadcastChannel: 'fm-challenge:v3',
+  sellFactor: 0.85,
+  sellFactorEnabled: false,
+  exClubTax: 1.25,
+  budgetDefault: 100,
+  budgetMin: 20,
+  budgetMax: 500,
+  budgetStep: 5,
+  moodSwingStreak: 3,
+  formationDefault: '4-3-3',
+  managerColors: ['#22c55e', '#38bdf8', '#f472b6', '#facc15', '#c084fc'],
+  managerMax: 3,
+  managerMin: 1,
+  slotsPerTeam: 12,
+  gradeBands: [
+    { grade: 'S', min: 900 },
+    { grade: 'A', min: 800 },
+    { grade: 'B', min: 700 },
+    { grade: 'C', min: 600 },
+    { grade: 'D', min: 0 },
+  ],
+  difficultyMultiplier: { 0: 1, 1: 1.2, 2: 1.5, 3: 2.0 },
+  bidBase: 0.6,
+  bidClamp: [0.35, 0.95],
+  bidDefaults: {
+    incrementMode: 'FIXED',
+    increment: 2.0,
+    incrementTiers: [
+      { upTo: 10, step: 0.5 },
+      { upTo: 50, step: 1.0 },
+      { upTo: 100, step: 2.5 },
+      { upTo: null, step: 5.0 },
+    ],
+    timerSeconds: 30,
+    extensionSeconds: 10,
+    extensionWindow: 5,
+    maxBidMultiple: null,
+    openToAll: false,
+  },
+  reserveDefaults: { enabled: false, minSlotPrice: 0.5 },
+  coachBonusFactor: 0.1,
+  coachBonusBase: 70,
+  winnerCriteriaDefault: 'TEAM_RATING',
+};
+
+export const MODIFIERS = [
+  { id: 'MOOD_SWING', name: 'Mood Swing', desc: 'Dilarang Keep atau Sell yang sama 3x beruntun per manager saat Draft.' },
+  { id: 'TRANSFER_MENU', name: 'Transfer Menu', desc: 'Klaim pasar bercabang mengikuti jumlah jualan dan budget tiap manager.' },
+  { id: 'SANG_MANTAN', name: 'Sang Mantan', desc: 'Wajib tetapkan fallback. Kalah lelang berarti fallback otomatis dibeli.' },
+];
+
+export const FORMATIONS = ['4-3-3', '4-4-2', '4-2-3-1', '3-5-2', '5-3-2'];

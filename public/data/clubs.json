@@ -1,0 +1,789 @@
+{
+  "version": "2026.2",
+  "season": "26/27",
+  "cutoff": "2026-10-10",
+  "source": "felipeall/transfermarkt-api",
+  "sample": false,
+  "clubs": [
+    {
+      "id": "tm_c_1025",
+      "name": "Bologna FC 1909",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Raffaele Palladino"
+      ]
+    },
+    {
+      "id": "tm_c_1041",
+      "name": "Olympique Lyon",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Paulo Fonseca"
+      ]
+    },
+    {
+      "id": "tm_c_1047",
+      "name": "Como 1907",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "Cesc Fàbregas"
+      ]
+    },
+    {
+      "id": "tm_c_1049",
+      "name": "Valencia CF",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Javier Aguirre"
+      ]
+    },
+    {
+      "id": "tm_c_1050",
+      "name": "Villarreal CF",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "Iñigo Pérez"
+      ]
+    },
+    {
+      "id": "tm_c_1082",
+      "name": "LOSC Lille",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 26,
+      "sample": false,
+      "coachNames": [
+        "Davide Ancelotti"
+      ]
+    },
+    {
+      "id": "tm_c_11",
+      "name": "Arsenal FC",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "Mikel Arteta"
+      ]
+    },
+    {
+      "id": "tm_c_1148",
+      "name": "Brentford FC",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Keith Andrews"
+      ]
+    },
+    {
+      "id": "tm_c_1158",
+      "name": "FC Lorient",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 26,
+      "sample": false,
+      "coachNames": [
+        "Alexandre Dujeux"
+      ]
+    },
+    {
+      "id": "tm_c_12",
+      "name": "AS Roma",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 25,
+      "sample": false,
+      "coachNames": [
+        "Gian Piero Gasperini"
+      ]
+    },
+    {
+      "id": "tm_c_1237",
+      "name": "Brighton & Hove Albion",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 30,
+      "sample": false,
+      "coachNames": [
+        "Fabian Hürzeler"
+      ]
+    },
+    {
+      "id": "tm_c_13",
+      "name": "Atlético de Madrid",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 25,
+      "sample": false,
+      "coachNames": [
+        "Diego Simeone"
+      ]
+    },
+    {
+      "id": "tm_c_131",
+      "name": "FC Barcelona",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "Hansi Flick"
+      ]
+    },
+    {
+      "id": "tm_c_148",
+      "name": "Tottenham Hotspur",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Roberto De Zerbi"
+      ]
+    },
+    {
+      "id": "tm_c_15",
+      "name": "Bayer 04 Leverkusen",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Carles Martínez"
+      ]
+    },
+    {
+      "id": "tm_c_150",
+      "name": "Real Betis Balompié",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 25,
+      "sample": false,
+      "coachNames": [
+        "Manuel Pellegrini"
+      ]
+    },
+    {
+      "id": "tm_c_16",
+      "name": "Borussia Dortmund",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 30,
+      "sample": false,
+      "coachNames": [
+        "Niko Kovac"
+      ]
+    },
+    {
+      "id": "tm_c_162",
+      "name": "AS Monaco",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 26,
+      "sample": false,
+      "coachNames": [
+        "Filipe Luís"
+      ]
+    },
+    {
+      "id": "tm_c_167",
+      "name": "FC Augsburg",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "Manuel Baum"
+      ]
+    },
+    {
+      "id": "tm_c_23826",
+      "name": "RB Leipzig",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Martín Demichelis"
+      ]
+    },
+    {
+      "id": "tm_c_24",
+      "name": "Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 26,
+      "sample": false,
+      "coachNames": [
+        "Adi Hütter"
+      ]
+    },
+    {
+      "id": "tm_c_244",
+      "name": "Olympique Marseille",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 22,
+      "sample": false,
+      "coachNames": [
+        "Bruno Genesio"
+      ]
+    },
+    {
+      "id": "tm_c_27",
+      "name": "Bayern Munich",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 23,
+      "sample": false,
+      "coachNames": [
+        "Vincent Kompany"
+      ]
+    },
+    {
+      "id": "tm_c_273",
+      "name": "Stade Rennais FC",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 26,
+      "sample": false,
+      "coachNames": [
+        "Franck Haise"
+      ]
+    },
+    {
+      "id": "tm_c_281",
+      "name": "Manchester City",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "Enzo Maresca"
+      ]
+    },
+    {
+      "id": "tm_c_289",
+      "name": "Sunderland AFC",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Régis Le Bris"
+      ]
+    },
+    {
+      "id": "tm_c_29",
+      "name": "Everton FC",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 22,
+      "sample": false,
+      "coachNames": [
+        "David Moyes"
+      ]
+    },
+    {
+      "id": "tm_c_3008",
+      "name": "Hull City",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 33,
+      "sample": false,
+      "coachNames": [
+        "Sergej Jakirovic"
+      ]
+    },
+    {
+      "id": "tm_c_31",
+      "name": "Liverpool FC",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Andoni Iraola"
+      ]
+    },
+    {
+      "id": "tm_c_367",
+      "name": "Rayo Vallecano",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "Beñat San José"
+      ]
+    },
+    {
+      "id": "tm_c_3709",
+      "name": "Getafe CF",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "José Bordalás"
+      ]
+    },
+    {
+      "id": "tm_c_39",
+      "name": "1.FSV Mainz 05",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "Urs Fischer"
+      ]
+    },
+    {
+      "id": "tm_c_398",
+      "name": "SS Lazio",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 33,
+      "sample": false,
+      "coachNames": [
+        "Gennaro Gattuso"
+      ]
+    },
+    {
+      "id": "tm_c_399",
+      "name": "Leeds United",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "Daniel Farke"
+      ]
+    },
+    {
+      "id": "tm_c_405",
+      "name": "Aston Villa",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Unai Emery"
+      ]
+    },
+    {
+      "id": "tm_c_410",
+      "name": "Udinese Calcio",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Kosta Runjaić"
+      ]
+    },
+    {
+      "id": "tm_c_415",
+      "name": "FC Toulouse",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "Jens Berthel Askou"
+      ]
+    },
+    {
+      "id": "tm_c_418",
+      "name": "Real Madrid",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "José Mourinho"
+      ]
+    },
+    {
+      "id": "tm_c_46",
+      "name": "Inter Milan",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "Cristian Chivu"
+      ]
+    },
+    {
+      "id": "tm_c_5",
+      "name": "AC Milan",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Ruben Amorim"
+      ]
+    },
+    {
+      "id": "tm_c_506",
+      "name": "Juventus FC",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Luciano Spalletti"
+      ]
+    },
+    {
+      "id": "tm_c_533",
+      "name": "TSG 1899 Hoffenheim",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "Christian Ilzer"
+      ]
+    },
+    {
+      "id": "tm_c_583",
+      "name": "Paris Saint-Germain",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "Luis Enrique"
+      ]
+    },
+    {
+      "id": "tm_c_60",
+      "name": "SC Freiburg",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "Julian Schuster"
+      ]
+    },
+    {
+      "id": "tm_c_6195",
+      "name": "SSC Napoli",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 27,
+      "sample": false,
+      "coachNames": [
+        "Massimiliano Allegri"
+      ]
+    },
+    {
+      "id": "tm_c_631",
+      "name": "Chelsea FC",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Xabi Alonso"
+      ]
+    },
+    {
+      "id": "tm_c_667",
+      "name": "RC Strasbourg Alsace",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Hugo Oliveira"
+      ]
+    },
+    {
+      "id": "tm_c_677",
+      "name": "Ipswich Town",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Gary O'Neil"
+      ]
+    },
+    {
+      "id": "tm_c_681",
+      "name": "Real Sociedad",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 26,
+      "sample": false,
+      "coachNames": [
+        "Pellegrino Matarazzo"
+      ]
+    },
+    {
+      "id": "tm_c_703",
+      "name": "Nottingham Forest",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 24,
+      "sample": false,
+      "coachNames": [
+        "Oliver Glasner"
+      ]
+    },
+    {
+      "id": "tm_c_762",
+      "name": "Newcastle United",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 25,
+      "sample": false,
+      "coachNames": [
+        "Matthias Jaissle"
+      ]
+    },
+    {
+      "id": "tm_c_79",
+      "name": "VfB Stuttgart",
+      "league": "Bundesliga",
+      "country": "DE",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 30,
+      "sample": false,
+      "coachNames": [
+        "Sebastian Hoeneß"
+      ]
+    },
+    {
+      "id": "tm_c_800",
+      "name": "Atalanta BC",
+      "league": "Serie A",
+      "country": "IT",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 25,
+      "sample": false,
+      "coachNames": [
+        "Maurizio Sarri"
+      ]
+    },
+    {
+      "id": "tm_c_826",
+      "name": "RC Lens",
+      "league": "Ligue 1",
+      "country": "FR",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Yannick Cahuzac"
+      ]
+    },
+    {
+      "id": "tm_c_873",
+      "name": "Crystal Palace",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Pierre Sage"
+      ]
+    },
+    {
+      "id": "tm_c_931",
+      "name": "Fulham FC",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 26,
+      "sample": false,
+      "coachNames": [
+        "Álvaro Arbeloa"
+      ]
+    },
+    {
+      "id": "tm_c_940",
+      "name": "Celta de Vigo",
+      "league": "La Liga",
+      "country": "ES",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 25,
+      "sample": false,
+      "coachNames": [
+        "Claudio Giráldez"
+      ]
+    },
+    {
+      "id": "tm_c_985",
+      "name": "Manchester United",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Michael Carrick"
+      ]
+    },
+    {
+      "id": "tm_c_989",
+      "name": "AFC Bournemouth",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 28,
+      "sample": false,
+      "coachNames": [
+        "Marco Rose"
+      ]
+    },
+    {
+      "id": "tm_c_990",
+      "name": "Coventry City",
+      "league": "Premier League",
+      "country": "EN",
+      "season": "26/27",
+      "cutoff": "2026-10-10",
+      "squadSize": 29,
+      "sample": false,
+      "coachNames": [
+        "Frank Lampard"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  { "name": "Pep Guardiola", "age": 55, "rating": 93 },
+  { "name": "Jurgen Klopp", "age": 59, "rating": 92 },
+  { "name": "Zinedine Zidane", "age": 54, "rating": 91 },
+  { "name": "Antonio Conte", "age": 57, "rating": 88 },
+  { "name": "Didier Deschamps", "age": 58, "rating": 88 },
+  { "name": "Julian Nagelsmann", "age": 39, "rating": 86 },
+  { "name": "Arne Slot", "age": 48, "rating": 86 },
+  { "name": "Joachim Löw", "age": 66, "rating": 86 },
+  { "name": "Xavi", "age": 46, "rating": 84 },
+  { "name": "Eddie Howe", "age": 49, "rating": 84 },
+  { "name": "Thomas Frank", "age": 53, "rating": 83 },
+  { "name": "Roberto Martinez", "age": 53, "rating": 82 },
+  { "name": "Gareth Southgate", "age": 56, "rating": 81 },
+  { "name": "Edin Terzic", "age": 44, "rating": 81 },
+  { "name": "Thiago Motta", "age": 44, "rating": 80 },
+  { "name": "Marcelino", "age": 60, "rating": 80 },
+  { "name": "Lucien Favre", "age": 68, "rating": 79 },
+  { "name": "Ange Postecoglou", "age": 61, "rating": 79 },
+  { "name": "Vitor Pereira", "age": 57, "rating": 78 },
+  { "name": "Kasper Hjulmand", "age": 54, "rating": 78 }
+]

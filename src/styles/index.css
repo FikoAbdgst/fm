@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+@theme {
+  --color-studio: #0a1730;
+  --color-panel: #13254d;
+  --color-panel-2: #1a2f5e;
+  --color-edge: #2a3d6e;
+  --color-line: #f7f9ff;
+  --color-muted: #a9bce6;
+  --color-signal: #ffc531;
+  --color-ink: #221a03;
+  --color-air: #1e5be0;
+  --color-keep: #2fbd73;
+  --color-keep-ink: #04160c;
+  --color-keep-text: #57d895;
+  --color-sell: #c93a2e;
+  --color-sell-text: #ff8a73;
+  --font-display: "Arial Narrow", "Helvetica Neue Condensed", "Roboto Condensed", system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-studio);
+  color: var(--color-line);
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Angka uang selalu tabular agar tidak goyang saat berubah */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Score-bug: bar identitas tiap layar ala grafis siaran (klub + fase + momen live) */
+.scorebug {
+  background: var(--color-air);
+  color: #fff;
+  border-radius: 14px;
+}
+.scorebug-slash {
+  width: 10px;
+  align-self: stretch;
+  background: var(--color-signal);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  border-radius: 2px;
+}
+
+/* Ticker tahapan: segmen siaran, yang aktif kuning */
+.ticker-seg {
+  border: 1px solid var(--color-edge);
+  color: var(--color-muted);
+  border-radius: 10px;
+}
+.ticker-seg[data-active="true"] {
+  background: var(--color-signal);
+  border-color: var(--color-signal);
+  color: var(--color-ink);
+}
+.ticker-seg[data-done="true"] {
+  border-color: var(--color-keep);
+  color: var(--color-keep-text);
+}
+
+/* Kartu: panel siaran, elevasi hanya untuk momen live */
+.player-card {
+  background: var(--color-panel);
+  border: 1px solid var(--color-edge);
+  border-radius: 14px;
+}
+.player-card[data-active="true"] {
+  border-color: var(--color-signal);
+  box-shadow: 0 12px 32px -12px rgb(0 0 0 / 0.65);
+}
+
+/* Titik live: satu-satunya momen gerak khas dunia ini (denyut siaran) */
+.live-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--color-signal);
+}
+.live-dot[data-on="true"] {
+  animation: live-pulse 1.6s ease-out infinite;
+}
+@keyframes live-pulse {
+  0% { box-shadow: 0 0 0 0 rgb(255 197 49 / 0.55); }
+  70% { box-shadow: 0 0 0 9px rgb(255 197 49 / 0); }
+  100% { box-shadow: 0 0 0 0 rgb(255 197 49 / 0); }
+}
+
+/* Fokus keyboard selalu terlihat (R-32) */
+:where(a, button, input, select, [tabindex]):focus-visible {
+  outline: 3px solid var(--color-signal);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Permukaan browser ikut didesain: seleksi, karet, scrollbar */
+::selection {
+  background: var(--color-signal);
+  color: var(--color-ink);
+}
+input, select, textarea {
+  caret-color: var(--color-signal);
+}
+* {
+  scrollbar-color: var(--color-edge) var(--color-studio);
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-edge);
+  border-radius: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Umpan balik singkat untuk Pertahankan/Jual (maks 200ms) */
+@keyframes pop-in {
+  from { transform: scale(0.97); opacity: 0.4; }
+  to { transform: scale(1); opacity: 1; }
+}
+.animate-pop {
+  animation: pop-in 160ms ease-out;
+}
+
+@keyframes count-pulse {
+  0% { transform: translateY(0); }
+  40% { transform: translateY(-2px); }
+  100% { transform: translateY(0); }
+}
+.animate-budget {
+  animation: count-pulse 200ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pop,
+  .animate-budget,
+  .live-dot[data-on="true"] {
+    animation: none;
+  }
+}
